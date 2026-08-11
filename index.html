@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladería Doña Nieve</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Heladería Doña Nieve</h1>
+        <p>En Doña Nieve preparamos deliciosos helados para disfrutar en cualquier momento. ¡Elegí tus sabores favoritos y hacé tu pedido!</p>
+    </header>
+
+    <main>
+        <form id="form-helados" novalidate method="POST" action="procesar.php">
+
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="sabores">Qué sabores querés</label>
+            <textarea id="sabores" name="sabores"></textarea>
+
+            <button type="submit">Enviar mi pedido</button>
+
+            <p id="aviso-helados" class="aviso"></p>
+
+        </form>
+    </main>
+
+    <footer>
+        Parcial 2 - Ervin Rodrigo Lapaca Aima - 11 de agosto de 2026
+    </footer>
+
+</body>
+</html>
