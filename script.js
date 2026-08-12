@@ -20,7 +20,7 @@ function revisarFormulario(event) {
         aviso.classList.remove("exito");
 
     } else {
-        aviso.textContent = "Pedido anotado - te atiende Juan Pérez";
+        aviso.textContent = "Pedido anotado - te atiende Ervin Rodrigo Lapaca Aima. Gracias por tu pedido.";
         aviso.classList.add("exito");
         aviso.classList.remove("error");
     }
